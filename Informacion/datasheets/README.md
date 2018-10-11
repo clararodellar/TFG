@@ -19,6 +19,9 @@
 
 ## Optoacopladores
 * [ACPL-8X7](acpl-8x7.pdf)
+* [4n25](4n25.pdf)
+* [4n35](4n35.pdf)
+* [4n25 al 4n37](4n25_4n37_fairc.pdf)
 
 
 
