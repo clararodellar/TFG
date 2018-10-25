@@ -6,3 +6,8 @@ Tornillo DIN-912: medidas de estos tornillos (con los que se ha trabajado la pie
 
 Encoder: información encontrada en un foro sobre el encoder.
 
+---
+
+Circuito con optoacoplador para relé y mosfet:
+http://www.bristolwatch.com/ele2/mosfet_relay.htm
+

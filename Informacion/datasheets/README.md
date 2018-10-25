@@ -8,6 +8,7 @@
 
 ## Transistores darlington (bipolar)
 * [TIP 120](tip120.pdf)
+* [ULN2003 TI](uln2003_ti.pdf) - [ULN2003 ST](uln2003_st.pdf): array de 7 darlingtons de 500 mA, unos 0,45euros
 
 ## Transistores MOSFET
 * [IRLB8721PBF](irlb8721pbf.pdf)
@@ -18,6 +19,9 @@
 
 ## Optoacopladores
 * [ACPL-8X7](acpl-8x7.pdf)
+* [4n25](4n25.pdf)
+* [4n35](4n35.pdf)
+* [4n25 al 4n37](4n25_4n37_fairc.pdf)
 
 
 
