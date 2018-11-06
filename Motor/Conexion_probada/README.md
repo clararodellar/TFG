@@ -1,7 +1,7 @@
 # CIRCUITO DE CONEXION DEL MOTOR
 
 
-Este modelo está probado. El modelo esta hecho con Fritzing
+Este modelo está probado. El modelo está hecho con Fritzing
 
 ![imagen](https://github.com/clararodellar/TFG/blob/master/Motor/Conexion_probada/esquema_motor.png)
 
