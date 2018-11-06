@@ -1,5 +1,6 @@
 Para desarrollar el circuito con puente en H nos hemos basado en el siguiente circuito:
-![imagen]()
+
+![imagen](https://github.com/clararodellar/TFG/blob/master/Motor/Conexion_puenteH/conexion_puenteH.PNG)
 
 De la página:
 
