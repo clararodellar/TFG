@@ -1,5 +1,5 @@
  
-# CIRCUITO DE CONEXION DEL MOTOR CON POTENCIOMETRO
+# CIRCUITO DE CONEXION DEL MOTOR CON POTENCIÓMETRO
 
 Este modelo no está probado. El modelo esta hecho con Fritzing
 
@@ -10,7 +10,7 @@ Este modelo no está probado. El modelo esta hecho con Fritzing
 * Transistor irlb8721
 * Motor reciclado de impresora hp dekjet 845
 * Placa de arduino UNO
-* Diodo
+* Diodo IN4001
 * Fuente de tensión de corriente continua de 12V
 * Resistencias (220 ohmios,10000 ohmios)
 * Potenciometro

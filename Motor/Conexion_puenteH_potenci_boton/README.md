@@ -4,9 +4,11 @@ Para desarrollar el circuito con puente en H nos hemos basado en el siguiente ci
 
 ![imagen](https://github.com/clararodellar/TFG/blob/master/Motor/Conexion_puenteH/conexion_puenteH.PNG)
 
-De la página:
+Basado en el de la página:
 
 [http://www.bristolwatch.com/ele/h_bridge.htm](http://www.bristolwatch.com/ele/h_bridge.htm)
+
+Viene modificado en que usamos un potenciómetro para controlar la velocidad del motor y un botón para decidir si lo encendemos o apagamos.
 
 ## Elementos:
 
@@ -18,6 +20,8 @@ De la página:
 * Resistencias (330 ohmios, 10000 ohmios??)
 * Diodo IN4001?
 * Fuente de tensión de corriente continua de 12V?
+* Potenciómetro
+* Botón
 
 Otras páginas de interés con otros circuitos y que hablan de los puentes en H son:
 
