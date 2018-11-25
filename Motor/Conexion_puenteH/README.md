@@ -4,6 +4,10 @@ Para desarrollar el circuito con puente en H nos hemos basado en el siguiente ci
 
 ![imagen](https://github.com/clararodellar/TFG/blob/master/Motor/Conexion_puenteH/conexion_puenteH.PNG)
 
+Quedandonos el siguiente esquema:
+
+![imagen](https://github.com/clararodellar/TFG/blob/master/Motor/Conexion_puenteH/esquema_motor_puenteH_v02_esquem%C3%A1tico.png)
+
 De la página:
 
 [http://www.bristolwatch.com/ele/h_bridge.htm](http://www.bristolwatch.com/ele/h_bridge.htm)

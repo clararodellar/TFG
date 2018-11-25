@@ -2,7 +2,7 @@
 
 Para desarrollar el circuito con puente en H nos hemos basado en el siguiente circuito:
 
-![imagen](https://github.com/clararodellar/TFG/blob/master/Motor/Conexion_puenteH/conexion_puenteH.PNG)
+![imagen](https://github.com/clararodellar/TFG/blob/master/Motor/Conexion_puenteH_potenci_boton/esquema_motor_puenteH_potenci_motor_esquem%C3%A1tico.png)
 
 Basado en el de la página:
 
