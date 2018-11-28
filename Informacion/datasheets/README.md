@@ -27,6 +27,9 @@
 ## Operacionales
 * TLV2462: rail to rail
 
+## Motores
+* M35SP-9, -10N (35S1N15D7YA) paso a paso de la impresora hp
+
 
 
 
