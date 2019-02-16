@@ -1,1 +1,0 @@
-En esta carpeta se guardará componentes necesarios para realizar un enconder lineal.
