@@ -11,4 +11,4 @@ La forma en que están nombrados es smd por su forma de conexión a la placa y el 
 
 A continuación adjunto una imagen de los componentes de una de las disqueteras.
 
-![imagen]()
+![imagen](https://github.com/clararodellar/TFG/blob/master/Lectores_DVD/PCB/componente-dvd.jpg)
