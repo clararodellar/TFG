@@ -8,7 +8,7 @@
 
 ## Transistores darlington (bipolar)
 * [TIP 120](tip120.pdf)
-* [ULN2003 TI](uln2003_ti.pdf) - [ULN2003 ST](uln2003_st.pdf): array de 7 darlington de 500 mA, unos 0,45euros
+* [ULN2003 TI](uln2003_ti.pdf) - [ULN2003 ST](uln2003_st.pdf): array de 7 darlington de 500 mA, unos 0,45euros (más info: https://www.inventable.eu/2018/02/09/uln2003-driver-salida-microcontroladores/)
 * [ULN2803](uln2008.pdf): array de 8 darlington de 500 mA
 
 ## Transistores MOSFET
@@ -26,6 +26,9 @@
 
 ## Operacionales
 * TLV2462: rail to rail
+
+## Motores
+* [M35SP-9 -10N](m35sp_9_10n.pdf) (35S1N15D7YA) paso a paso de la impresora HP deskjet 845c
 
 
 
