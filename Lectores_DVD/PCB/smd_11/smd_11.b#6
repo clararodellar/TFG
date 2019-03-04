@@ -635,6 +635,7 @@ design rules under a new name.</description>
 <vertex x="46.99" y="0"/>
 <vertex x="46.99" y="34.29"/>
 </polygon>
+<via x="6.35" y="15.24" extent="1-16" drill="0.65"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

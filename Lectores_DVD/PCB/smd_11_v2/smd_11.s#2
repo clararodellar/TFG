@@ -1005,6 +1005,7 @@ tMask is only on one layer. Designed for kits to prevent soldering on the wrong 
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.254"/>
 </class>
 </classes>
 <parts>

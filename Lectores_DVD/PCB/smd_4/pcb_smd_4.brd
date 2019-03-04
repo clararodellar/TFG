@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -158,14 +158,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="2.032" y1="0.762" x2="22.84" y2="0.762" width="0" layer="20"/>
-<wire x1="22.84" y1="0.762" x2="22.84" y2="23.546" width="0" layer="20"/>
-<wire x1="22.84" y1="23.546" x2="2.032" y2="23.546" width="0" layer="20"/>
-<wire x1="2.032" y1="23.546" x2="2.032" y2="0.762" width="0" layer="20"/>
-<hole x="4.445" y="21.209" drill="3"/>
-<hole x="20.574" y="21.336" drill="3"/>
-<hole x="20.955" y="3.175" drill="3"/>
-<hole x="4.318" y="3.302" drill="3"/>
+<wire x1="2.032" y1="0.635" x2="26.221" y2="0.508" width="0" layer="20"/>
+<wire x1="26.221" y1="0.508" x2="26.221" y2="24.689" width="0" layer="20"/>
+<wire x1="26.221" y1="24.689" x2="2.032" y2="24.816" width="0" layer="20"/>
+<wire x1="2.032" y1="24.816" x2="2.032" y2="0.635" width="0" layer="20"/>
+<hole x="5.159" y="21.463" drill="3"/>
+<hole x="23.241" y="21.463" drill="3"/>
+<hole x="5.032" y="4.191" drill="3"/>
+<hole x="23.368" y="4.191" drill="3"/>
 </plain>
 <libraries>
 <library name="52793-0470">
@@ -460,73 +460,73 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="52793-0470" package="527930472" value="52793-0470" x="12.7" y="16.51" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="71463721" x="-6.35" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/molexincorporated-52793-0470/71463721/" x="-6.35" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Molex 52793 Series 1mm Pitch 4 Way SMT Female FPC Connector, Non-ZIF" x="-6.35" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="3.1mm" x="-6.35" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Molex" x="-6.35" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="52793-0470" x="-6.35" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="538-52793-0470" x="-6.35" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=538-52793-0470" x="-6.35" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.7" y="16.035" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1791963" x="-6.35" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1791963" x="-6.35" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="12.7" y="16.035" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="J1" library="52793-0470" package="527930472" value="52793-0470" x="14.097" y="16.891" smashed="yes" rot="R180">
+<attribute name="ALLIED_NUMBER" value="71463721" x="-4.953" y="20.701" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/molexincorporated-52793-0470/71463721/" x="-4.953" y="20.701" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Molex 52793 Series 1mm Pitch 4 Way SMT Female FPC Connector, Non-ZIF" x="-4.953" y="20.701" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="3.1mm" x="-4.953" y="20.701" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Molex" x="-4.953" y="20.701" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="52793-0470" x="-4.953" y="20.701" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="538-52793-0470" x="-4.953" y="20.701" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=538-52793-0470" x="-4.953" y="20.701" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="14.097" y="16.416" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1791963" x="-4.953" y="20.701" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1791963" x="-4.953" y="20.701" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="14.097" y="16.416" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="1X04" value="" x="16.51" y="3.81" smashed="yes" rot="MR0">
-<attribute name="NAME" x="17.78" y="5.207" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0"/>
-<attribute name="PROD_ID" value="CONN-09696" x="-6.35" y="-6.35" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="17.78" y="1.778" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0"/>
+<element name="J2" library="SparkFun-Connectors" package="1X04" value="" x="17.907" y="4.191" smashed="yes" rot="MR0">
+<attribute name="NAME" x="19.177" y="5.588" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0"/>
+<attribute name="PROD_ID" value="CONN-09696" x="-4.953" y="-5.969" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="19.177" y="2.159" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0"/>
 </element>
 </elements>
 <signals>
 <signal name="N$2">
 <contactref element="J1" pad="3"/>
 <contactref element="J2" pad="3"/>
-<wire x1="12.2" y1="13.635" x2="12.2" y2="8.39" width="0.6096" layer="1"/>
-<wire x1="12.2" y1="8.39" x2="11.43" y2="7.62" width="0.6096" layer="1"/>
-<via x="11.43" y="7.62" extent="1-16" drill="0.65"/>
-<wire x1="11.43" y1="7.62" x2="11.43" y2="3.81" width="0.6096" layer="16"/>
+<wire x1="13.597" y1="14.016" x2="13.597" y2="8.771" width="0.6096" layer="1"/>
+<wire x1="13.597" y1="8.771" x2="12.827" y2="8.001" width="0.6096" layer="1"/>
+<via x="12.827" y="8.001" extent="1-16" drill="0.65"/>
+<wire x1="12.827" y1="8.001" x2="12.827" y2="4.191" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="J1" pad="1"/>
 <contactref element="J2" pad="1"/>
-<wire x1="14.2" y1="13.635" x2="14.2" y2="11.2" width="0.6096" layer="1"/>
-<wire x1="14.2" y1="11.2" x2="16.51" y2="8.89" width="0.6096" layer="1"/>
-<via x="16.51" y="8.89" extent="1-16" drill="0.65"/>
-<wire x1="16.51" y1="8.89" x2="16.51" y2="3.81" width="0.6096" layer="16"/>
+<wire x1="15.597" y1="14.016" x2="15.597" y2="11.581" width="0.6096" layer="1"/>
+<wire x1="15.597" y1="11.581" x2="17.907" y2="9.271" width="0.6096" layer="1"/>
+<via x="17.907" y="9.271" extent="1-16" drill="0.65"/>
+<wire x1="17.907" y1="9.271" x2="17.907" y2="4.191" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="J2" pad="2"/>
 <contactref element="J1" pad="2"/>
-<wire x1="13.2" y1="13.635" x2="13.2" y2="8.39" width="0.6096" layer="1"/>
-<wire x1="13.2" y1="8.39" x2="13.97" y2="7.62" width="0.6096" layer="1"/>
-<via x="13.97" y="7.62" extent="1-16" drill="0.65"/>
-<wire x1="13.97" y1="7.62" x2="13.97" y2="3.81" width="0.6096" layer="16"/>
+<wire x1="14.597" y1="14.016" x2="14.597" y2="8.771" width="0.6096" layer="1"/>
+<wire x1="14.597" y1="8.771" x2="15.367" y2="8.001" width="0.6096" layer="1"/>
+<via x="15.367" y="8.001" extent="1-16" drill="0.65"/>
+<wire x1="15.367" y1="8.001" x2="15.367" y2="4.191" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="J2" pad="4"/>
 <contactref element="J1" pad="4"/>
-<wire x1="11.2" y1="13.635" x2="11.2" y2="11.2" width="0.6096" layer="1"/>
-<wire x1="11.2" y1="11.2" x2="8.89" y2="8.89" width="0.6096" layer="1"/>
-<via x="8.89" y="8.89" extent="1-16" drill="0.65"/>
-<wire x1="8.89" y1="8.89" x2="8.89" y2="3.81" width="0.6096" layer="16"/>
+<wire x1="12.597" y1="14.016" x2="12.597" y2="11.581" width="0.6096" layer="1"/>
+<wire x1="12.597" y1="11.581" x2="10.287" y2="9.271" width="0.6096" layer="1"/>
+<via x="10.287" y="9.271" extent="1-16" drill="0.65"/>
+<wire x1="10.287" y1="9.271" x2="10.287" y2="4.191" width="0.6096" layer="16"/>
 </signal>
 <signal name="GND">
 <polygon width="0.1524" layer="1">
-<vertex x="1.905" y="23.495"/>
-<vertex x="22.987" y="23.495"/>
-<vertex x="22.987" y="0.762"/>
-<vertex x="1.905" y="0.762"/>
+<vertex x="4.826" y="21.59"/>
+<vertex x="22.987" y="21.59"/>
+<vertex x="22.987" y="1.778"/>
+<vertex x="4.826" y="1.778"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="1.905" y="23.495"/>
-<vertex x="22.86" y="23.495"/>
-<vertex x="22.86" y="0.762"/>
-<vertex x="1.905" y="0.762"/>
+<vertex x="4.826" y="21.59"/>
+<vertex x="22.939" y="21.59"/>
+<vertex x="22.939" y="1.778"/>
+<vertex x="4.826" y="1.778"/>
 </polygon>
-<via x="4.699" y="13.843" extent="1-16" drill="0.35"/>
+<via x="21.336" y="10.795" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
