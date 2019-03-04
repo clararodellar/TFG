@@ -3,7 +3,7 @@
 
 Este modelo está probado. El modelo está hecho con Fritzing
 
-![imagen](https://github.com/clararodellar/TFG/blob/master/Motor/Conexion_probada/esquema_motor.png)
+![imagen](https://github.com/clararodellar/TFG/blob/master/Cinta_transportadora/Motor/Conexion_probada/esquema_motor.png)
 
 ## Elementos:
 * Octoacoplador 4N35

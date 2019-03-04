@@ -3,7 +3,7 @@
 
 Este modelo no está probado. El modelo esta hecho con Fritzing
 
-![imagen](https://github.com/clararodellar/TFG/blob/master/Motor/Conexion_potenciometro/esquema_motor_potenciometro.png)
+![imagen](https://github.com/clararodellar/TFG/blob/master/Cinta_transportadora/Motor/Conexion_potenciometro/esquema_motor_potenciometro.png)
 
 ## Elementos:
 * Octoacoplador 4N35
