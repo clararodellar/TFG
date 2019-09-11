@@ -1,0 +1,3 @@
+vhdl work "PWM_motor.vhd"
+vhdl work "calcular_posicion.vhd"
+vhdl work "juntar.vhd"

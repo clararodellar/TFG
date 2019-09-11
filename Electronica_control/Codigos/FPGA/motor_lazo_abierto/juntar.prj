@@ -1,0 +1,4 @@
+vhdl work "PWM_motor.vhd"
+vhdl work "debouncer_top.vhd"
+vhdl work "binary_to_bcd.vhd"
+vhdl work "juntar.vhd"

@@ -1,0 +1,4 @@
+vhdl work "D:\URJC\4.CUARTO\TFG\TRABAJO\FPGA\DEFINITIVO\motor_lazo_abierto\PWM_motor.vhd"
+vhdl work "D:\URJC\4.CUARTO\TFG\TRABAJO\FPGA\DEFINITIVO\motor_lazo_abierto\debouncer_top.vhd"
+vhdl work "D:\URJC\4.CUARTO\TFG\TRABAJO\FPGA\DEFINITIVO\motor_lazo_abierto\binary_to_bcd.vhd"
+vhdl work "D:\URJC\4.CUARTO\TFG\TRABAJO\FPGA\DEFINITIVO\motor_lazo_abierto\juntar.vhd"

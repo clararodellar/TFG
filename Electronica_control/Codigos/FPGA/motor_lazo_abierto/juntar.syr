@@ -1,0 +1,548 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: juntar.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "juntar.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "juntar"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-tq144
+
+---- Source Options
+Top Module Name                    : juntar
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/PWM_motor.vhd" in Library work.
+Entity <PWM_motor> compiled.
+Entity <PWM_motor> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/debouncer_top.vhd" in Library work.
+Entity <debouncer_top> compiled.
+Entity <debouncer_top> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/binary_to_bcd.vhd" in Library work.
+Entity <binary_to_bcd> compiled.
+Entity <binary_to_bcd> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/juntar.vhd" in Library work.
+Entity <juntar> compiled.
+Entity <juntar> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <juntar> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <PWM_motor> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <debouncer_top> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <binary_to_bcd> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <juntar> in library <work> (Architecture <Behavioral>).
+Entity <juntar> analyzed. Unit <juntar> generated.
+
+Analyzing Entity <PWM_motor> in library <work> (Architecture <Behavioral>).
+Entity <PWM_motor> analyzed. Unit <PWM_motor> generated.
+
+Analyzing Entity <debouncer_top> in library <work> (Architecture <Behavioral>).
+Entity <debouncer_top> analyzed. Unit <debouncer_top> generated.
+
+Analyzing Entity <binary_to_bcd> in library <work> (Architecture <Behavioral>).
+Entity <binary_to_bcd> analyzed. Unit <binary_to_bcd> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <PWM_motor>.
+    Related source file is "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/PWM_motor.vhd".
+    Using one-hot encoding for signal <aumento>.
+    Found 16x7-bit ROM for signal <segmento>.
+    Found 1-bit register for signal <motor1>.
+    Found 1-bit register for signal <motor2>.
+    Found 1-bit register for signal <led_sentido>.
+    Found 1-bit register for signal <led_salida>.
+    Found 1-bit register for signal <btn_bajar_rg1>.
+    Found 1-bit register for signal <btn_bajar_rg2>.
+    Found 1-bit register for signal <btn_subir_rg1>.
+    Found 1-bit register for signal <btn_subir_rg2>.
+    Found 26-bit up counter for signal <conta0_5seg>.
+    Found 17-bit up counter for signal <conta1milisegundo>.
+    Found 2-bit up counter for signal <conta3mili>.
+    Found 10-bit up counter for signal <conta8us>.
+    Found 8-bit up counter for signal <cuentaPWM>.
+    Found 8-bit register for signal <dutycycle>.
+    Found 8-bit comparator greater for signal <dutycycle$cmp_gt0000> created at line 163.
+    Found 8-bit comparator greater for signal <dutycycle$cmp_gt0001> created at line 169.
+    Found 8-bit comparator less for signal <dutycycle$cmp_lt0000> created at line 183.
+    Found 8-bit comparator less for signal <dutycycle$cmp_lt0001> created at line 189.
+    Found 8-bit addsub for signal <dutycycle$share0000> created at line 155.
+    Found 4-bit 4-to-1 multiplexer for signal <mostrar>.
+    Found 1-bit register for signal <pulso_anterior>.
+    Found 8-bit comparator less for signal <salidaPWM$cmp_lt0000> created at line 244.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   5 Counter(s).
+	inferred  17 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   5 Comparator(s).
+	inferred   4 Multiplexer(s).
+Unit <PWM_motor> synthesized.
+
+
+Synthesizing Unit <debouncer_top>.
+    Related source file is "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/debouncer_top.vhd".
+    Found 1-bit register for signal <btn_out>.
+    Found 1-bit register for signal <btn_prev>.
+    Found 1-bit xor2 for signal <btn_prev$xor0000> created at line 50.
+    Found 20-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <debouncer_top> synthesized.
+
+
+Synthesizing Unit <binary_to_bcd>.
+    Related source file is "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/binary_to_bcd.vhd".
+    Found 4-bit comparator greater for signal <bcd_signal_3$cmp_gt0000> created at line 56.
+    Found 4-bit comparator greater for signal <bcd_signal_3$cmp_gt0001> created at line 56.
+    Found 4-bit comparator greater for signal <bcd_signal_3$cmp_gt0002> created at line 56.
+    Found 4-bit comparator greater for signal <bcd_signal_3$cmp_gt0003> created at line 56.
+    Found 4-bit comparator greater for signal <bcd_signal_3$cmp_gt0004> created at line 56.
+    Found 4-bit adder for signal <bcd_signal_3_0$add0000> created at line 57.
+    Found 4-bit adder for signal <bcd_signal_3_0$add0001> created at line 57.
+    Found 4-bit adder for signal <bcd_signal_3_0$add0002> created at line 57.
+    Found 4-bit adder for signal <bcd_signal_3_0$add0003> created at line 57.
+    Found 4-bit adder for signal <bcd_signal_3_0$add0004> created at line 57.
+    Found 4-bit comparator greater for signal <bcd_signal_7$cmp_gt0000> created at line 59.
+    Found 4-bit comparator greater for signal <bcd_signal_7$cmp_gt0001> created at line 59.
+    Found 4-bit adder for signal <bcd_signal_7_4$add0000> created at line 60.
+    Found 4-bit adder for signal <bcd_signal_7_4$add0001> created at line 60.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <binary_to_bcd> synthesized.
+
+
+Synthesizing Unit <juntar>.
+    Related source file is "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/juntar.vhd".
+Unit <juntar> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 8
+ 4-bit adder                                           : 7
+ 8-bit addsub                                          : 1
+# Counters                                             : 7
+ 10-bit up counter                                     : 1
+ 17-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 20-bit up counter                                     : 2
+ 26-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 14
+ 1-bit register                                        : 13
+ 8-bit register                                        : 1
+# Comparators                                          : 12
+ 4-bit comparator greater                              : 7
+ 8-bit comparator greater                              : 2
+ 8-bit comparator less                                 : 3
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 8
+ 4-bit adder                                           : 7
+ 8-bit addsub                                          : 1
+# Counters                                             : 7
+ 10-bit up counter                                     : 1
+ 17-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 20-bit up counter                                     : 2
+ 26-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 21
+ Flip-Flops                                            : 21
+# Comparators                                          : 12
+ 4-bit comparator greater                              : 7
+ 8-bit comparator greater                              : 2
+ 8-bit comparator less                                 : 3
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <juntar> ...
+
+Optimizing unit <PWM_motor> ...
+
+Optimizing unit <binary_to_bcd> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block juntar, actual ratio is 18.
+FlipFlop PWM_motor1/dutycycle_3 has been replicated 1 time(s)
+FlipFlop PWM_motor1/dutycycle_5 has been replicated 1 time(s)
+FlipFlop PWM_motor1/dutycycle_6 has been replicated 1 time(s)
+FlipFlop PWM_motor1/dutycycle_7 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 128
+ Flip-Flops                                            : 128
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : juntar.ngr
+Top Level Output File Name         : juntar
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 23
+
+Cell Usage :
+# BELS                             : 563
+#      GND                         : 1
+#      INV                         : 9
+#      LUT1                        : 96
+#      LUT2                        : 74
+#      LUT3                        : 30
+#      LUT3_D                      : 4
+#      LUT4                        : 100
+#      LUT4_D                      : 3
+#      LUT4_L                      : 1
+#      MUXCY                       : 122
+#      MUXF5                       : 13
+#      VCC                         : 1
+#      XORCY                       : 109
+# FlipFlops/Latches                : 128
+#      FDC                         : 61
+#      FDCE                        : 23
+#      FDE                         : 4
+#      FDRE                        : 40
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 22
+#      IBUF                        : 7
+#      OBUF                        : 15
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100etq144-4 
+
+ Number of Slices:                      171  out of    960    17%  
+ Number of Slice Flip Flops:            127  out of   1920     6%  
+ Number of 4 input LUTs:                317  out of   1920    16%  
+ Number of IOs:                          23
+ Number of bonded IOBs:                  23  out of    108    21%  
+    IOB Flip Flops:                       1
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 128   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+btn_reset                          | IBUF                   | 84    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.268ns (Maximum Frequency: 120.948MHz)
+   Minimum input arrival time before clock: 7.594ns
+   Maximum output required time after clock: 15.573ns
+   Maximum combinational path delay: 12.981ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.268ns (frequency: 120.948MHz)
+  Total number of paths / destination ports: 4035 / 232
+-------------------------------------------------------------------------
+Delay:               8.268ns (Levels of Logic = 6)
+  Source:            PWM_motor1/dutycycle_2 (FF)
+  Destination:       PWM_motor1/dutycycle_6 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: PWM_motor1/dutycycle_2 to PWM_motor1/dutycycle_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            18   0.591   1.243  PWM_motor1/dutycycle_2 (PWM_motor1/dutycycle_2)
+     LUT3_D:I0->O          1   0.704   0.595  PWM_motor1/dutycycle_cmp_eq000021 (PWM_motor1/N23)
+     LUT4:I0->O            1   0.704   0.000  PWM_motor1/dutycycle_mux0004<0>111_G (N66)
+     MUXF5:I1->O           3   0.321   0.566  PWM_motor1/dutycycle_mux0004<0>111 (PWM_motor1/N1)
+     LUT4:I2->O            2   0.704   0.451  PWM_motor1/dutycycle_mux0004<0>11_SW0 (N6)
+     LUT4_D:I3->O          6   0.704   0.673  PWM_motor1/dutycycle_mux0004<0>12 (PWM_motor1/N01)
+     LUT4:I3->O            2   0.704   0.000  PWM_motor1/dutycycle_mux0004<6>1 (PWM_motor1/dutycycle_mux0004<6>)
+     FDCE:D                    0.308          PWM_motor1/dutycycle_6
+    ----------------------------------------
+    Total                      8.268ns (4.740ns logic, 3.528ns route)
+                                       (57.3% logic, 42.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 469 / 61
+-------------------------------------------------------------------------
+Offset:              7.594ns (Levels of Logic = 6)
+  Source:            sw_velocidad<0> (PAD)
+  Destination:       PWM_motor1/dutycycle_5 (FF)
+  Destination Clock: clk rising
+
+  Data Path: sw_velocidad<0> to PWM_motor1/dutycycle_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.218   0.995  sw_velocidad_0_IBUF (sw_velocidad_0_IBUF)
+     LUT3:I0->O            5   0.704   0.808  PWM_motor1/aumento_cmp_eq00021 (PWM_motor1/aumento<3>)
+     LUT4:I0->O            1   0.704   0.000  PWM_motor1/dutycycle_mux0004<7>2120_SW0_G (N30)
+     MUXF5:I1->O           1   0.321   0.424  PWM_motor1/dutycycle_mux0004<7>2120_SW0 (N25)
+     LUT4_D:I3->O          6   0.704   0.704  PWM_motor1/dutycycle_mux0004<0>21 (PWM_motor1/N3)
+     LUT4:I2->O            2   0.704   0.000  PWM_motor1/dutycycle_mux0004<5>1 (PWM_motor1/dutycycle_mux0004<5>)
+     FDCE:D                    0.308          PWM_motor1/dutycycle_5
+    ----------------------------------------
+    Total                      7.594ns (4.663ns logic, 2.931ns route)
+                                       (61.4% logic, 38.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 5469 / 14
+-------------------------------------------------------------------------
+Offset:              15.573ns (Levels of Logic = 10)
+  Source:            PWM_motor1/dutycycle_6 (FF)
+  Destination:       segmento<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: PWM_motor1/dutycycle_6 to segmento<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            22   0.591   1.339  PWM_motor1/dutycycle_6 (PWM_motor1/dutycycle_6)
+     LUT4:I0->O            4   0.704   0.666  binary_to_bcd1/bcd_signal_1_mux0002_SW1 (N13)
+     LUT3:I1->O            9   0.704   0.995  binary_to_bcd1/bcd_signal_1_mux0002 (binary_to_bcd1/Madd_bcd_signal_3_0_add0003_lut<2>)
+     LUT4:I0->O            1   0.704   0.000  binary_to_bcd1/bcd_signal_3_mux00032 (binary_to_bcd1/bcd_signal_3_mux00031)
+     MUXF5:I0->O           7   0.321   0.787  binary_to_bcd1/bcd_signal_3_mux0003_f5 (binary_to_bcd1/Madd_bcd_signal_7_4_add0001_cy<0>)
+     LUT2:I1->O            1   0.704   0.000  PWM_motor1/Mmux_mostrar6219_SW01 (PWM_motor1/Mmux_mostrar6219_SW0)
+     MUXF5:I1->O           1   0.321   0.595  PWM_motor1/Mmux_mostrar6219_SW0_f5 (N31)
+     LUT4:I0->O            1   0.704   0.455  PWM_motor1/Mmux_mostrar6258_SW0 (N51)
+     LUT4:I2->O            7   0.704   0.883  PWM_motor1/Mmux_mostrar6258 (PWM_motor1/mostrar<2>)
+     LUT4:I0->O            1   0.704   0.420  PWM_motor1/Mrom_segmento31 (segmento_3_OBUF)
+     OBUF:I->O                 3.272          segmento_3_OBUF (segmento<3>)
+    ----------------------------------------
+    Total                     15.573ns (9.433ns logic, 6.140ns route)
+                                       (60.6% logic, 39.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 255 / 10
+-------------------------------------------------------------------------
+Delay:               12.981ns (Levels of Logic = 8)
+  Source:            sw_velocidad<1> (PAD)
+  Destination:       segmento<3> (PAD)
+
+  Data Path: sw_velocidad<1> to segmento<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.218   0.899  sw_velocidad_1_IBUF (sw_velocidad_1_IBUF)
+     LUT4:I1->O            4   0.704   0.587  PWM_motor1/mostrar_mux0010<0>11 (PWM_motor1/N21)
+     MUXF5:S->O            1   0.739   0.595  PWM_motor1/Mmux_mostrar653_SW0_f5 (N39)
+     LUT4:I0->O            1   0.704   0.424  PWM_motor1/Mmux_mostrar688_SW0 (N55)
+     LUT4:I3->O            1   0.704   0.424  PWM_motor1/Mmux_mostrar688 (PWM_motor1/Mmux_mostrar688)
+     LUT4:I3->O            7   0.704   0.883  PWM_motor1/Mmux_mostrar6258 (PWM_motor1/mostrar<2>)
+     LUT4:I0->O            1   0.704   0.420  PWM_motor1/Mrom_segmento31 (segmento_3_OBUF)
+     OBUF:I->O                 3.272          segmento_3_OBUF (segmento<3>)
+    ----------------------------------------
+    Total                     12.981ns (8.749ns logic, 4.232ns route)
+                                       (67.4% logic, 32.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.70 secs
+ 
+--> 
+
+Total memory usage is 4521408 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

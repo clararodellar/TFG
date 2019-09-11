@@ -1,0 +1,32 @@
+V3 15
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/binary_to_bcd.vhd 2019/07/14.14:11:36 P.20131013
+EN work/binary_to_bcd 1568219233 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/binary_to_bcd.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_to_bcd/Behavioral 1568219234 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/binary_to_bcd.vhd \
+      EN work/binary_to_bcd 1568219233
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/debouncer_top.vhd 2019/07/07.16:51:12 P.20131013
+EN work/debouncer_top 1568219231 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/debouncer_top.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/debouncer_top/Behavioral 1568219232 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/debouncer_top.vhd \
+      EN work/debouncer_top 1568219231
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/juntar.vhd 2019/07/14.14:55:43 P.20131013
+EN work/juntar 1568219235 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/juntar.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/juntar/Behavioral 1568219236 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/juntar.vhd \
+      EN work/juntar 1568219235 CP PWM_motor CP debouncer_top CP binary_to_bcd
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/PWM_motor.vhd 2019/09/11.18:27:02 P.20131013
+EN work/PWM_motor 1568219229 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/PWM_motor.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/PWM_motor/Behavioral 1568219230 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/PWM_motor.vhd \
+      EN work/PWM_motor 1568219229

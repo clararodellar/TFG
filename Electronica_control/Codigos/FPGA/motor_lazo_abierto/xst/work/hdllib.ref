@@ -1,0 +1,8 @@
+EN pwm_motor NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/PWM_motor.vhd sub00/vhpl00 1568219229
+AR pwm_motor behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/PWM_motor.vhd sub00/vhpl01 1568219230
+EN juntar NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/juntar.vhd sub00/vhpl06 1568219235
+EN debouncer_top NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/debouncer_top.vhd sub00/vhpl02 1568219231
+AR binary_to_bcd behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/binary_to_bcd.vhd sub00/vhpl05 1568219234
+AR debouncer_top behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/debouncer_top.vhd sub00/vhpl03 1568219232
+AR juntar behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/juntar.vhd sub00/vhpl07 1568219236
+EN binary_to_bcd NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/motor_lazo_abierto/binary_to_bcd.vhd sub00/vhpl04 1568219233

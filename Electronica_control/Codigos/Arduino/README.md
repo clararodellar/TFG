@@ -1,4 +1,6 @@
-En esta carpeta están escritos los códigos usados para controlar el montaje.
+# ARDUINO
+
+En esta carpeta están los códigos usados de Arduino para controlar el montaje.
 
 * motor_boton: controla el motor con un puente en H, de manera que es capaz de cambiar el sentido, que se hace a través de un botón, y varía la velocidad con un potenciómetro en LAZO ABIERTO.
 
