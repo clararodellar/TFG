@@ -6,3 +6,8 @@ En esta carpeta están los códigos usados de FPGA para controlar el montaje.
 
 * **motor_lazo_abierto**: controla el motor con un puente en H, de manera que es capaz de cambiar el sentido, que se hace con un interruptor, y varía la velocidad con un botón que la aumenta y otro que la disminuye, pudiendo aumentar las unidades, decenas o centenas en LAZO ABIERTO.
 
+* **prueba_vueltas**: este código se realiza para medir el tiempo que tarda en dar una vuelta para poder hacer los cálculos para el lazo cerrado.
+
+
+* **PWM_lazocerrado_v1**: es la primera versión del control de la cinta transportadora con un control pid (lazo cerrado)
+

@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.xst" -ofn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneralYo.ucf -p xc3s100e-tq144-4 juntar.ngc juntar.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o juntar_map.ncd juntar.ngd juntar.pcf 
+par -w -intstyle ise -ol high -t 1 juntar_map.ncd juntar.ncd juntar.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml juntar.twx juntar.ncd -o juntar.twr juntar.pcf -ucf BasysRevEGeneralYo.ucf 
+bitgen -intstyle ise -f juntar.ut juntar.ncd 
+xst -intstyle ise -ifn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.xst" -ofn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.syr" 
+xst -intstyle ise -ifn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.xst" -ofn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneralYo.ucf -p xc3s100e-tq144-4 juntar.ngc juntar.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o juntar_map.ncd juntar.ngd juntar.pcf 
+par -w -intstyle ise -ol high -t 1 juntar_map.ncd juntar.ncd juntar.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml juntar.twx juntar.ncd -o juntar.twr juntar.pcf -ucf BasysRevEGeneralYo.ucf 
+bitgen -intstyle ise -f juntar.ut juntar.ncd 
+xst -intstyle ise -ifn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.xst" -ofn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneralYo.ucf -p xc3s100e-tq144-4 juntar.ngc juntar.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o juntar_map.ncd juntar.ngd juntar.pcf 
+par -w -intstyle ise -ol high -t 1 juntar_map.ncd juntar.ncd juntar.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml juntar.twx juntar.ncd -o juntar.twr juntar.pcf -ucf BasysRevEGeneralYo.ucf 
+bitgen -intstyle ise -f juntar.ut juntar.ncd 
+xst -intstyle ise -ifn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.xst" -ofn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneralYo.ucf -p xc3s100e-tq144-4 juntar.ngc juntar.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o juntar_map.ncd juntar.ngd juntar.pcf 
+par -w -intstyle ise -ol high -t 1 juntar_map.ncd juntar.ncd juntar.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml juntar.twx juntar.ncd -o juntar.twr juntar.pcf -ucf BasysRevEGeneralYo.ucf 
+bitgen -intstyle ise -f juntar.ut juntar.ncd 
+xst -intstyle ise -ifn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.xst" -ofn "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneralYo.ucf -p xc3s100e-tq144-4 juntar.ngc juntar.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o juntar_map.ncd juntar.ngd juntar.pcf 
+par -w -intstyle ise -ol high -t 1 juntar_map.ncd juntar.ncd juntar.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml juntar.twx juntar.ncd -o juntar.twr juntar.pcf -ucf BasysRevEGeneralYo.ucf 
+bitgen -intstyle ise -f juntar.ut juntar.ncd 

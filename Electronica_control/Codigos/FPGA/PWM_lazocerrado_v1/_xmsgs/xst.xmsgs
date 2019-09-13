@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="1610" delta="new" >&quot;<arg fmt="%s" index="1">D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/PWM_motor.vhd</arg>&quot; line <arg fmt="%d" index="2">411</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">velocidad_real_tension</arg>&gt; has a width of <arg fmt="%d" index="4">16</arg> bits but assigned expression is <arg fmt="%d" index="5">32</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">output_loaded&lt;31:16&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">Error_difference&lt;31:28&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Error_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PID1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Error_17&gt; &lt;Error_18&gt; &lt;Error_19&gt; &lt;Error_20&gt; &lt;Error_21&gt; &lt;Error_22&gt; &lt;Error_23&gt; &lt;Error_24&gt; &lt;Error_25&gt; &lt;Error_26&gt; &lt;Error_27&gt; &lt;Error_28&gt; &lt;Error_29&gt; &lt;Error_30&gt; &lt;Error_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">old_error_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PID1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;old_error_17&gt; &lt;old_error_18&gt; &lt;old_error_19&gt; &lt;old_error_20&gt; &lt;old_error_21&gt; &lt;old_error_22&gt; &lt;old_error_23&gt; &lt;old_error_24&gt; &lt;old_error_25&gt; &lt;old_error_26&gt; &lt;old_error_27&gt; &lt;old_error_28&gt; &lt;old_error_29&gt; &lt;old_error_30&gt; &lt;old_error_31&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Error_difference_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Error_difference_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Error_difference_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Error_difference_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Error_difference_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Error_difference_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Error_difference_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Error_difference_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_loaded_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PID</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Error_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PID</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Error_17&gt; &lt;Error_18&gt; &lt;Error_19&gt; &lt;Error_20&gt; &lt;Error_21&gt; &lt;Error_22&gt; &lt;Error_23&gt; &lt;Error_24&gt; &lt;Error_25&gt; &lt;Error_26&gt; &lt;Error_27&gt; &lt;Error_28&gt; &lt;Error_29&gt; &lt;Error_30&gt; &lt;Error_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">old_error_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PID</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;old_error_17&gt; &lt;old_error_18&gt; &lt;old_error_19&gt; &lt;old_error_20&gt; &lt;old_error_21&gt; &lt;old_error_22&gt; &lt;old_error_23&gt; &lt;old_error_24&gt; &lt;old_error_25&gt; &lt;old_error_26&gt; &lt;old_error_27&gt; &lt;old_error_28&gt; &lt;old_error_29&gt; &lt;old_error_30&gt; &lt;old_error_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">i_26</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PID</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;i_27&gt; &lt;i_28&gt; &lt;i_29&gt; &lt;i_30&gt; &lt;i_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Error_difference_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PID</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Error_difference_18&gt; &lt;Error_difference_19&gt; &lt;Error_difference_20&gt; &lt;Error_difference_21&gt; &lt;Error_difference_22&gt; &lt;Error_difference_23&gt; &lt;Error_difference_24&gt; &lt;Error_difference_25&gt; &lt;Error_difference_26&gt; &lt;Error_difference_27&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">d_26</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PID</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;d_27&gt; &lt;d_28&gt; &lt;d_29&gt; &lt;d_30&gt; &lt;d_31&gt; </arg>
+</msg>
+
+</messages>
+

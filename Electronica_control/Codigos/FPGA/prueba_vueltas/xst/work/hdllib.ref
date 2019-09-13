@@ -1,0 +1,6 @@
+AR calcular_posicion behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/calcular_posicion.vhd sub00/vhpl03 1568391798
+EN pwm_motor NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/PWM_motor.vhd sub00/vhpl00 1568391795
+AR pwm_motor behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/PWM_motor.vhd sub00/vhpl01 1568391796
+EN juntar NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.vhd sub00/vhpl04 1568391799
+AR juntar behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.vhd sub00/vhpl05 1568391800
+EN calcular_posicion NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/calcular_posicion.vhd sub00/vhpl02 1568391797

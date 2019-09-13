@@ -1,0 +1,12 @@
+AR calcular_posicion behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/calcular_posicion.vhd sub00/vhpl07 1568370585
+EN pwm_motor NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/PWM_motor.vhd sub00/vhpl00 1568370578
+AR pwm_motor behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/PWM_motor.vhd sub00/vhpl01 1568370579
+EN juntar NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/juntar.vhd sub00/vhpl10 1568370588
+EN debouncer_top NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/debouncer_top.vhd sub00/vhpl02 1568370580
+AR binary_to_bcd behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/binary_to_bcd.vhd sub00/vhpl05 1568370583
+AR pid behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/pid.vhd sub00/vhpl09 1568370587
+AR debouncer_top behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/debouncer_top.vhd sub00/vhpl03 1568370581
+EN pid NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/pid.vhd sub00/vhpl08 1568370586
+AR juntar behavioral D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/juntar.vhd sub00/vhpl11 1568370589
+EN calcular_posicion NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/calcular_posicion.vhd sub00/vhpl06 1568370584
+EN binary_to_bcd NULL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_lazocerrado_v1/binary_to_bcd.vhd sub00/vhpl04 1568370582

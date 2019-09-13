@@ -1,0 +1,23 @@
+V3 11
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/calcular_posicion.vhd 2019/09/11.12:57:40 P.20131013
+EN work/calcular_posicion 1568391797 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/calcular_posicion.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/calcular_posicion/Behavioral 1568391798 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/calcular_posicion.vhd \
+      EN work/calcular_posicion 1568391797
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.vhd 2019/09/10.23:35:11 P.20131013
+EN work/juntar 1568391799 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/juntar/Behavioral 1568391800 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/juntar.vhd \
+      EN work/juntar 1568391799 CP PWM_motor CP calcular_posicion
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/PWM_motor.vhd 2019/09/13.18:23:08 P.20131013
+EN work/PWM_motor 1568391795 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/PWM_motor.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/PWM_motor/Behavioral 1568391796 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/DEFINITIVO/prueba_vueltas/PWM_motor.vhd \
+      EN work/PWM_motor 1568391795
