@@ -1,0 +1,1 @@
+* **TFG_Clara_Rodellar_ITI**: en este archivo se tiene la memoria de este TFG donde está explicada la solución técnica y las conclusiones del trabajo.
