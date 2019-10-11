@@ -6,7 +6,7 @@
 
 * **sensor_encoder_lineal**: incluye los componentes necesarios y páginas donde mirar cómo montar un encoder lineal.
 
-
+* **CÓMO SABER SI UN TRANSISTOR ESTÁ DAÑADO**: son instrucciones con imagenes para comprobar si un transistor se ha dañado.
 
 Páginas para entender control de puente en H:
 
