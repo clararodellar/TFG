@@ -1,0 +1,47 @@
+V3 23
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/binary_to_bcd.vhd 2019/09/19.15:17:20 P.20131013
+EN work/binary_to_bcd 1570784371 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/binary_to_bcd.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_to_bcd/Behavioral 1570784372 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/binary_to_bcd.vhd \
+      EN work/binary_to_bcd 1570784371
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/calcular_posicion.vhd 2019/09/18.18:26:11 P.20131013
+EN work/calcular_posicion 1570784373 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/calcular_posicion.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/calcular_posicion/Behavioral 1570784374 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/calcular_posicion.vhd \
+      EN work/calcular_posicion 1570784373
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/debouncer_top.vhd 2019/09/19.15:33:52 P.20131013
+EN work/debouncer_top 1570784369 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/debouncer_top.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/debouncer_top/Behavioral 1570784370 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/debouncer_top.vhd \
+      EN work/debouncer_top 1570784369
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/juntar.vhd 2019/09/19.16:52:21 P.20131013
+EN work/juntar 1570784377 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/juntar.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/juntar/Behavioral 1570784378 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/juntar.vhd \
+      EN work/juntar 1570784377 CP PWM_motor CP debouncer_top CP binary_to_bcd \
+      CP calcular_posicion CP PID
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/pid.vhd 2019/09/18.18:56:19 P.20131013
+EN work/PID 1570784375 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/pid.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/PID/Behavioral 1570784376 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/pid.vhd \
+      EN work/PID 1570784375
+FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/PWM_motor.vhd 2019/10/02.15:05:58 P.20131013
+EN work/PWM_motor 1570784367 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/PWM_motor.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/PWM_motor/Behavioral 1570784368 \
+      FL D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/PWM_motor.vhd \
+      EN work/PWM_motor 1570784367

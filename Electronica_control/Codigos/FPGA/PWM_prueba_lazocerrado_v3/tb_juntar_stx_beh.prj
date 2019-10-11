@@ -1,0 +1,7 @@
+vhdl isim_temp "PWM_motor.vhd"
+vhdl isim_temp "pid.vhd"
+vhdl isim_temp "debouncer_top.vhd"
+vhdl isim_temp "calcular_posicion.vhd"
+vhdl isim_temp "binary_to_bcd.vhd"
+vhdl isim_temp "juntar.vhd"
+vhdl isim_temp "tb_juntar.vhd"

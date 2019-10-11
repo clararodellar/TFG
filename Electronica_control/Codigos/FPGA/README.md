@@ -9,5 +9,5 @@ En esta carpeta están los códigos usados de FPGA para controlar el montaje.
 * **prueba_vueltas**: este código se realiza para medir el tiempo que tarda en dar una vuelta para poder hacer los cálculos para el lazo cerrado.
 
 
-* **PWM_lazocerrado_v1**: es la primera versión del control de la cinta transportadora con un control pid (lazo cerrado)
+* **PWM_prueba_lazocerrado_v3**: se controla la cinta transportadora con un LAZO CERRADO usando un control proporcional
 

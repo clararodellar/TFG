@@ -1,0 +1,6 @@
+work	"PWM_motor.vhd"
+work	"binary_to_bcd.vhd"
+work	"calcular_posicion.vhd"
+work	"debouncer_top.vhd"
+work	"juntar.vhd"
+work	"pid.vhd"

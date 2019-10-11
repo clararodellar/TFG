@@ -1,0 +1,32 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/tb_juntar_isim_beh.exe -prj D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/tb_juntar_beh.prj tb_juntar 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/PWM_motor.vhd" into library work
+Parsing VHDL file "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/pid.vhd" into library work
+Parsing VHDL file "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/debouncer_top.vhd" into library work
+Parsing VHDL file "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/calcular_posicion.vhd" into library work
+Parsing VHDL file "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/binary_to_bcd.vhd" into library work
+Parsing VHDL file "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/juntar.vhd" into library work
+Parsing VHDL file "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/tb_juntar.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity PWM_motor [pwm_motor_default]
+Compiling architecture behavioral of entity debouncer_top [debouncer_top_default]
+Compiling architecture behavioral of entity binary_to_bcd [binary_to_bcd_default]
+Compiling architecture behavioral of entity calcular_posicion [calcular_posicion_default]
+Compiling architecture behavioral of entity PID [pid_default]
+Compiling architecture behavioral of entity juntar [juntar_default]
+Compiling architecture behavior of entity tb_juntar
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 18 VHDL Units
+Built simulation executable D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/tb_juntar_isim_beh.exe
+Fuse Memory Usage: 37168 KB
+Fuse CPU Usage: 765 ms

@@ -1,0 +1,30 @@
+Command line:
+   tb_juntar_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52062
+
+Thu Sep 19 16:09:10 2019
+
+
+ Elaboration Time: 0.375 sec
+
+ Current Memory Usage: 5814.61 Meg
+
+ Total Signals          : 127
+ Total Nets             : 328
+ Total Signal Drivers   : 63
+ Total Blocks           : 12
+ Total Primitive Blocks : 10
+ Total Processes        : 44
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 835
+Total Line Count : 247
+Total Line Count : 247
+
+ Total Simulation Time: 204.438 sec
+
+ Current Memory Usage: 4713.57 Meg
+
+Mon Sep 23 01:19:52 2019
+

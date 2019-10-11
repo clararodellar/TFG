@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/tb_juntar_isim_beh.exe" -prj "D:/URJC/4.CUARTO/TFG/TRABAJO/FPGA/PWM_prueba_lazocerrado_v3/tb_juntar_beh.prj" "tb_juntar" 

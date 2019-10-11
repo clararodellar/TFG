@@ -1,6 +1,0 @@
-vhdl work "PWM_motor.vhd"
-vhdl work "pid.vhd"
-vhdl work "debouncer_top.vhd"
-vhdl work "calcular_posicion.vhd"
-vhdl work "binary_to_bcd.vhd"
-vhdl work "juntar.vhd"

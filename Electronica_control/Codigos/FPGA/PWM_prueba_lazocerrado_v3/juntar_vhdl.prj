@@ -1,0 +1,6 @@
+vhdl work "D:\URJC\4.CUARTO\TFG\TRABAJO\FPGA\PWM_prueba_lazocerrado_v3\PWM_motor.vhd"
+vhdl work "D:\URJC\4.CUARTO\TFG\TRABAJO\FPGA\PWM_prueba_lazocerrado_v3\pid.vhd"
+vhdl work "D:\URJC\4.CUARTO\TFG\TRABAJO\FPGA\PWM_prueba_lazocerrado_v3\debouncer_top.vhd"
+vhdl work "D:\URJC\4.CUARTO\TFG\TRABAJO\FPGA\PWM_prueba_lazocerrado_v3\calcular_posicion.vhd"
+vhdl work "D:\URJC\4.CUARTO\TFG\TRABAJO\FPGA\PWM_prueba_lazocerrado_v3\binary_to_bcd.vhd"
+vhdl work "D:\URJC\4.CUARTO\TFG\TRABAJO\FPGA\PWM_prueba_lazocerrado_v3\juntar.vhd"
